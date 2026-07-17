@@ -1,0 +1,84 @@
+{
+  "eval_id": "qwen25vl7b-full-20260714T181314Z-eval-968",
+  "created_at": "2026-07-14T19:00:00Z",
+  "git_commit": "UNKNOWN",
+  "run_id": "qwen25vl7b-full-20260714T181314Z",
+  "adapter_checkpoint": "checkpoint-1800",
+  "val_set_id": "968-form-full-val",
+  "examples_evaluated": 968,
+  "parse_failures": 0,
+  "eval_mode": "row_crop",
+  "per_field": {
+    "dew_point_c": {
+      "correct": 874,
+      "total": 939
+    },
+    "dry_bulb_c": {
+      "correct": 888,
+      "total": 939
+    },
+    "msl_pressure_hpa": {
+      "correct": 739,
+      "total": 811
+    },
+    "past_weather_w": {
+      "correct": 850,
+      "total": 884
+    },
+    "present_weather_ww": {
+      "correct": 830,
+      "total": 884
+    },
+    "rainfall_amount_mm": {
+      "correct": 319,
+      "total": 351
+    },
+    "relative_humidity_pct": {
+      "correct": 843,
+      "total": 941
+    },
+    "station_pressure_hpa": {
+      "correct": 850,
+      "total": 949
+    },
+    "total_cloud_oktas": {
+      "correct": 913,
+      "total": 941
+    },
+    "utc_hour": {
+      "correct": 960,
+      "total": 968
+    },
+    "visibility_km": {
+      "correct": 895,
+      "total": 933
+    },
+    "wet_bulb_c": {
+      "correct": 892,
+      "total": 940
+    },
+    "wind_direction_deg": {
+      "correct": 862,
+      "total": 936
+    },
+    "wind_speed_mps": {
+      "correct": 906,
+      "total": 936
+    }
+  },
+  "synop_cross_check": {
+    "dry_bulb_c": {
+      "correct": 886,
+      "total": 937
+    },
+    "msl_pressure_hpa": {
+      "correct": 735,
+      "total": 925
+    },
+    "station_pressure_hpa": {
+      "correct": 739,
+      "total": 945
+    }
+  },
+  "notes": "This is the honest full-val number for this run \u2014 matches BENCHMARKS.md 93.9% average."
+}

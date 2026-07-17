@@ -1,0 +1,58 @@
+{
+  "run_id": "qwen25vl7b-full-20260714T181314Z",
+  "created_at": "2026-07-14T18:13:14Z",
+  "git_commit": "UNKNOWN \u2014 Sparky please confirm the commit checked out for this run",
+  "model": {
+    "base_model": "Qwen/Qwen2.5-VL-7B-Instruct",
+    "quant": "bf16",
+    "lora": {
+      "r": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ]
+    }
+  },
+  "mode": "row_crop",
+  "data": {
+    "corpus_source": "s3://pagasa-ingestion-output-587410285976-us-east-1 (full corpus)",
+    "corpus_forms": 3872,
+    "train_examples": 30976,
+    "val_examples": 968,
+    "val_set_id": "968-form-full-val"
+  },
+  "training": {
+    "max_steps": 11613,
+    "steps_run": 3600,
+    "early_stopped": true,
+    "batch_size": 1,
+    "grad_accum": 8,
+    "eval_batch_size": 8,
+    "max_pixels": 589824,
+    "max_new_tokens": 256,
+    "runtime_seconds": 51200
+  },
+  "hardware": {
+    "venue": "Sparky DGX GB10",
+    "gpu": "GB10 128GB unified"
+  },
+  "result": {
+    "best_eval_loss": 0.0241,
+    "best_checkpoint_step": 1800,
+    "final_eval_loss": 0.0263,
+    "eval_metrics_file": "eval_results/7b-full-corpus/eval_adapted_968.eval_manifest.json"
+  },
+  "artifact": {
+    "adapter_path": "adapters/7b-full-corpus/adapter_model.safetensors",
+    "adapter_size_bytes": 190442760,
+    "s3_backup_uri": null
+  },
+  "notes": "This run has TWO eval passes pushed (100-form eval_adapted.log AND 968-form eval_adapted_968.log) \u2014 see the two separate eval_manifest.json files, do not conflate them."
+}

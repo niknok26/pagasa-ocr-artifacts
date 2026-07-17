@@ -1,0 +1,84 @@
+{
+  "eval_id": "qwen25vl7b-full-20260714T181314Z-eval-100",
+  "created_at": "2026-07-14T19:00:00Z",
+  "git_commit": "UNKNOWN",
+  "run_id": "qwen25vl7b-full-20260714T181314Z",
+  "adapter_checkpoint": "checkpoint-1800",
+  "val_set_id": "100-form-sample",
+  "examples_evaluated": 100,
+  "parse_failures": 0,
+  "eval_mode": "row_crop",
+  "per_field": {
+    "dew_point_c": {
+      "correct": 94,
+      "total": 100
+    },
+    "dry_bulb_c": {
+      "correct": 98,
+      "total": 100
+    },
+    "msl_pressure_hpa": {
+      "correct": 92,
+      "total": 100
+    },
+    "past_weather_w": {
+      "correct": 89,
+      "total": 94
+    },
+    "present_weather_ww": {
+      "correct": 90,
+      "total": 94
+    },
+    "rainfall_amount_mm": {
+      "correct": 33,
+      "total": 37
+    },
+    "relative_humidity_pct": {
+      "correct": 92,
+      "total": 100
+    },
+    "station_pressure_hpa": {
+      "correct": 90,
+      "total": 100
+    },
+    "total_cloud_oktas": {
+      "correct": 100,
+      "total": 100
+    },
+    "utc_hour": {
+      "correct": 99,
+      "total": 100
+    },
+    "visibility_km": {
+      "correct": 95,
+      "total": 100
+    },
+    "wet_bulb_c": {
+      "correct": 96,
+      "total": 100
+    },
+    "wind_direction_deg": {
+      "correct": 92,
+      "total": 99
+    },
+    "wind_speed_mps": {
+      "correct": 97,
+      "total": 99
+    }
+  },
+  "synop_cross_check": {
+    "dry_bulb_c": {
+      "correct": 97,
+      "total": 99
+    },
+    "msl_pressure_hpa": {
+      "correct": 91,
+      "total": 99
+    },
+    "station_pressure_hpa": {
+      "correct": 89,
+      "total": 99
+    }
+  },
+  "notes": "100-form sample \u2014 the 968-form eval of the SAME adapter is eval_adapted_968.eval_manifest.json. Do not average or merge these two."
+}

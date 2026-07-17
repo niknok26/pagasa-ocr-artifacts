@@ -1,0 +1,84 @@
+{
+  "eval_id": "qwen25vl7b-zeroshot-baseline-100-v2",
+  "created_at": "2026-07-14T18:00:00Z",
+  "git_commit": "UNKNOWN",
+  "run_id": "zero-shot",
+  "adapter_checkpoint": null,
+  "val_set_id": "100-form-sample",
+  "examples_evaluated": 100,
+  "parse_failures": 0,
+  "eval_mode": "row_crop",
+  "per_field": {
+    "dew_point_c": {
+      "correct": 4,
+      "total": 100
+    },
+    "dry_bulb_c": {
+      "correct": 12,
+      "total": 100
+    },
+    "msl_pressure_hpa": {
+      "correct": 3,
+      "total": 100
+    },
+    "past_weather_w": {
+      "correct": 1,
+      "total": 94
+    },
+    "present_weather_ww": {
+      "correct": 2,
+      "total": 94
+    },
+    "rainfall_amount_mm": {
+      "correct": 23,
+      "total": 37
+    },
+    "relative_humidity_pct": {
+      "correct": 15,
+      "total": 100
+    },
+    "station_pressure_hpa": {
+      "correct": 1,
+      "total": 100
+    },
+    "total_cloud_oktas": {
+      "correct": 8,
+      "total": 100
+    },
+    "utc_hour": {
+      "correct": 13,
+      "total": 100
+    },
+    "visibility_km": {
+      "correct": 15,
+      "total": 100
+    },
+    "wet_bulb_c": {
+      "correct": 6,
+      "total": 100
+    },
+    "wind_direction_deg": {
+      "correct": 11,
+      "total": 99
+    },
+    "wind_speed_mps": {
+      "correct": 25,
+      "total": 99
+    }
+  },
+  "synop_cross_check": {
+    "dry_bulb_c": {
+      "correct": 12,
+      "total": 99
+    },
+    "msl_pressure_hpa": {
+      "correct": 3,
+      "total": 99
+    },
+    "station_pressure_hpa": {
+      "correct": 1,
+      "total": 99
+    }
+  },
+  "notes": "Zero-shot Qwen2.5-VL-7B-Instruct, no adapter."
+}

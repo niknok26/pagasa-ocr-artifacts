@@ -1,0 +1,58 @@
+{
+  "run_id": "qwen3vl8b-20260714T034604Z",
+  "created_at": "2026-07-14T03:46:04Z",
+  "git_commit": "UNKNOWN \u2014 Sparky please confirm the commit checked out for this run",
+  "model": {
+    "base_model": "Qwen/Qwen3-VL-8B-Instruct",
+    "quant": "bf16",
+    "lora": {
+      "r": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ]
+    }
+  },
+  "mode": "row_crop",
+  "data": {
+    "corpus_source": "s3://pagasa-ingestion-output-587410285976-us-east-1 (full corpus, presumed)",
+    "corpus_forms": 605,
+    "train_examples": 3872,
+    "val_examples": 968,
+    "val_set_id": "968-form-full-val"
+  },
+  "training": {
+    "max_steps": 1800,
+    "steps_run": 1800,
+    "early_stopped": false,
+    "batch_size": 1,
+    "grad_accum": 8,
+    "eval_batch_size": 8,
+    "max_pixels": 589824,
+    "max_new_tokens": 256,
+    "runtime_seconds": 28960
+  },
+  "hardware": {
+    "venue": "Sparky DGX GB10",
+    "gpu": "NVIDIA GB10 128GB unified"
+  },
+  "result": {
+    "best_eval_loss": 0.04254649579524994,
+    "best_checkpoint_step": 900,
+    "final_eval_loss": 0.03691,
+    "eval_metrics_file": "eval_results/8b-full-corpus/eval_adapted.eval_manifest.json"
+  },
+  "artifact": {
+    "adapter_path": "adapters/8b-full-corpus/adapter_model.safetensors",
+    "adapter_size_bytes": 174663096,
+    "s3_backup_uri": null
+  },
+  "notes": "IMPORTANT: this is the local 8B run (NOT an EC2 run). train.log confirms: 'Sparky Qwen3-VL-8B pilot', 'model=Qwen/Qwen3-VL-8B-Instruct quant=bf16 max_steps=1800 eval_limit=968 stall=30m wall=0h', 'Training on: NVIDIA GB10'. Best checkpoint was checkpoint-900 (eval_loss 0.0425). Eval was run against the final adapter (checkpoint-1800). S3 copy exists at s3://quant-qwen-qwen2.5-7b-instruct-1779249957-7847/pagasa_pilot/runs/run-20260714T065048Z/final_adapter/ \u2014 the S3 path prefix is misleading (it's a leftover from the EC2 run naming, not the actual model). This is a THIRD, previously untracked 8B configuration \u2014 not the '8B Sparky, 1800 steps, bf16' or '8B EC2 QLoRA, 7800 steps' rows in BENCHMARKS.md."
+}

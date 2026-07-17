@@ -1,0 +1,58 @@
+{
+  "run_id": "overnight-7b-605-20260711T140649Z",
+  "created_at": "2026-07-12T01:40:00Z",
+  "git_commit": "UNKNOWN \u2014 Sparky please confirm the commit checked out for this run (ran 2026-07-11/12, before the dataloader-deadlock fixes of 2026-07-14)",
+  "model": {
+    "base_model": "Qwen/Qwen2.5-VL-7B-Instruct",
+    "quant": "bf16",
+    "lora": {
+      "r": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ]
+    }
+  },
+  "mode": "row_crop",
+  "data": {
+    "corpus_source": "s3://pagasa-ingestion-output-587410285976-us-east-1 (605-form pilot subset)",
+    "corpus_forms": 605,
+    "train_examples": 3872,
+    "val_examples": 968,
+    "val_set_id": "968-form-full-val"
+  },
+  "training": {
+    "max_steps": 1800,
+    "steps_run": 1800,
+    "early_stopped": false,
+    "batch_size": 1,
+    "grad_accum": 8,
+    "eval_batch_size": 8,
+    "max_pixels": 589824,
+    "max_new_tokens": 256,
+    "runtime_seconds": 28960
+  },
+  "hardware": {
+    "venue": "Sparky DGX GB10",
+    "gpu": "GB10 128GB unified"
+  },
+  "result": {
+    "best_eval_loss": 0.0227,
+    "best_checkpoint_step": null,
+    "final_eval_loss": 0.0242,
+    "eval_metrics_file": "eval_results/7b-605-forms/eval_adapted.eval_manifest.json"
+  },
+  "artifact": {
+    "adapter_path": "adapters/7b-605-forms/adapter_model.safetensors",
+    "adapter_size_bytes": 190442760,
+    "s3_backup_uri": null
+  },
+  "notes": "Missing trainer_state.json in the artifacts repo. best_checkpoint_step is None \u2014 eval_loss best was not explicitly logged in this run."
+}

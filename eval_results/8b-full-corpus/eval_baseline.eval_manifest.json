@@ -1,0 +1,84 @@
+{
+  "eval_id": "qwen3vl8b-zeroshot-baseline-968",
+  "created_at": "2026-07-14T03:00:00Z",
+  "git_commit": "UNKNOWN",
+  "run_id": "zero-shot",
+  "adapter_checkpoint": null,
+  "val_set_id": "968-form-full-val",
+  "examples_evaluated": 968,
+  "parse_failures": 243,
+  "eval_mode": "row_crop",
+  "per_field": {
+    "dew_point_c": {
+      "correct": 228,
+      "total": 705
+    },
+    "dry_bulb_c": {
+      "correct": 278,
+      "total": 705
+    },
+    "msl_pressure_hpa": {
+      "correct": 98,
+      "total": 605
+    },
+    "past_weather_w": {
+      "correct": 16,
+      "total": 648
+    },
+    "present_weather_ww": {
+      "correct": 36,
+      "total": 648
+    },
+    "rainfall_amount_mm": {
+      "correct": 191,
+      "total": 280
+    },
+    "relative_humidity_pct": {
+      "correct": 254,
+      "total": 705
+    },
+    "station_pressure_hpa": {
+      "correct": 65,
+      "total": 706
+    },
+    "total_cloud_oktas": {
+      "correct": 86,
+      "total": 705
+    },
+    "utc_hour": {
+      "correct": 322,
+      "total": 725
+    },
+    "visibility_km": {
+      "correct": 341,
+      "total": 698
+    },
+    "wet_bulb_c": {
+      "correct": 311,
+      "total": 705
+    },
+    "wind_direction_deg": {
+      "correct": 152,
+      "total": 701
+    },
+    "wind_speed_mps": {
+      "correct": 287,
+      "total": 701
+    }
+  },
+  "synop_cross_check": {
+    "dry_bulb_c": {
+      "correct": 275,
+      "total": 701
+    },
+    "msl_pressure_hpa": {
+      "correct": 113,
+      "total": 694
+    },
+    "station_pressure_hpa": {
+      "correct": 65,
+      "total": 702
+    }
+  },
+  "notes": "Zero-shot Qwen3-VL-8B-Instruct, no adapter. NOTE: 243/968 JSON parse failures on baseline \u2014 a real data point about base-model zero-shot output-format reliability, not present on the 7B baselines (0 parse failures each)."
+}
