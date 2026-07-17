@@ -1,0 +1,29 @@
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 5589.42it/s]
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:07<1:27:11,  7.19s/it]Loading weights:   0%|          | 2/729 [00:14<1:29:07,  7.36s/it]Loading weights:   1%|          | 5/729 [00:15<27:23,  2.27s/it]  Loading weights:   2%|▏         | 12/729 [00:15<08:11,  1.46it/s]Loading weights:   2%|▏         | 12/729 [00:29<08:11,  1.46it/s]Loading weights:   2%|▏         | 14/729 [00:47<49:28,  4.15s/it]Loading weights:  24%|██▍       | 176/729 [01:24<03:25,  2.70it/s]Loading weights:  24%|██▍       | 178/729 [01:27<03:36,  2.54it/s]Loading weights:  46%|████▌     | 336/729 [01:27<00:53,  7.30it/s]Loading weights:  51%|█████     | 370/729 [01:34<00:53,  6.73it/s]Loading weights: 100%|█████████▉| 726/729 [01:35<00:00, 23.25it/s]Loading weights: 100%|██████████| 729/729 [01:35<00:00,  7.63it/s]
+
+============================================================
+Model: Qwen/Qwen2.5-VL-7B-Instruct  Adapter: /home/dencio/pagasa-pilot/runs/overnight-7b-605-20260711T140649Z/adapter
+Examples: 100  JSON parse failures: 0
+============================================================
+
+Per-field accuracy vs PUMIS ground truth:
+  dew_point_c                    96/100  ( 96.0%)
+  dry_bulb_c                     99/100  ( 99.0%)
+  msl_pressure_hpa               93/100  ( 93.0%)
+  past_weather_w                 89/94   ( 94.7%)
+  present_weather_ww             90/94   ( 95.7%)
+  rainfall_amount_mm             34/37   ( 91.9%)
+  relative_humidity_pct          95/100  ( 95.0%)
+  station_pressure_hpa           94/100  ( 94.0%)
+  total_cloud_oktas              98/100  ( 98.0%)
+  utc_hour                       99/100  ( 99.0%)
+  visibility_km                  96/100  ( 96.0%)
+  wet_bulb_c                     96/100  ( 96.0%)
+  wind_direction_deg             95/99   ( 96.0%)
+  wind_speed_mps                 95/99   ( 96.0%)
+
+Agreement with independent §63 SYNOP encoding (label-free sanity check):
+  dry_bulb_c                     98/99   ( 99.0%)
+  msl_pressure_hpa               92/99   ( 92.9%)
+  station_pressure_hpa           93/99   ( 93.9%)
+

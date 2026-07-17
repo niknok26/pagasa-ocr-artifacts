@@ -1,0 +1,126 @@
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 20722.85it/s]
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:06<1:21:07,  6.69s/it]Loading weights:   0%|          | 2/729 [00:14<1:29:51,  7.42s/it]Loading weights:   0%|          | 3/729 [00:15<54:10,  4.48s/it]  Loading weights:   1%|          | 9/729 [00:18<15:33,  1.30s/it]Loading weights:   1%|▏         | 10/729 [00:18<13:28,  1.12s/it]Loading weights:   3%|▎         | 23/729 [00:18<03:28,  3.39it/s]Loading weights:   4%|▍         | 28/729 [00:20<03:50,  3.04it/s]Loading weights:   4%|▍         | 30/729 [00:21<04:03,  2.87it/s]Loading weights:   5%|▍         | 34/729 [00:22<03:00,  3.85it/s]Loading weights:   5%|▍         | 36/729 [00:22<02:39,  4.35it/s]Loading weights:   5%|▌         | 38/729 [00:24<04:51,  2.37it/s]Loading weights:   7%|▋         | 54/729 [00:25<01:54,  5.91it/s]Loading weights:   8%|▊         | 58/729 [00:25<01:37,  6.91it/s]Loading weights:   8%|▊         | 60/729 [00:25<01:31,  7.29it/s]Loading weights:   9%|▊         | 63/729 [00:32<06:40,  1.66it/s]Loading weights:   9%|▉         | 65/729 [00:41<13:25,  1.21s/it]Loading weights:  13%|█▎        | 94/729 [00:44<03:46,  2.81it/s]Loading weights:  16%|█▌        | 117/729 [00:56<04:20,  2.35it/s]Loading weights:  27%|██▋       | 196/729 [00:59<01:21,  6.50it/s]Loading weights:  27%|██▋       | 196/729 [01:09<01:21,  6.50it/s]Loading weights:  29%|██▊       | 208/729 [01:14<02:38,  3.30it/s]Loading weights:  29%|██▊       | 209/729 [01:15<02:41,  3.21it/s]Loading weights:  39%|███▊      | 282/729 [01:16<00:56,  7.95it/s]Loading weights:  39%|███▉      | 286/729 [01:16<00:53,  8.21it/s]Loading weights:  40%|███▉      | 290/729 [01:16<00:51,  8.58it/s]Loading weights:  40%|████      | 294/729 [01:27<02:28,  2.93it/s]Loading weights:  57%|█████▋    | 413/729 [01:28<00:25, 12.57it/s]Loading weights:  60%|██████    | 441/729 [01:31<00:24, 11.83it/s]Loading weights:  62%|██████▏   | 449/729 [01:34<00:30,  9.30it/s]Loading weights: 100%|██████████| 729/729 [01:34<00:00,  7.73it/s]
+[eval] 10/968 rows (parse_fail=0)
+[eval] 20/968 rows (parse_fail=0)
+[eval] 30/968 rows (parse_fail=0)
+[eval] 40/968 rows (parse_fail=0)
+[eval] 50/968 rows (parse_fail=0)
+[eval] 60/968 rows (parse_fail=0)
+[eval] 70/968 rows (parse_fail=0)
+[eval] 80/968 rows (parse_fail=0)
+[eval] 90/968 rows (parse_fail=0)
+[eval] 100/968 rows (parse_fail=0)
+[eval] 110/968 rows (parse_fail=0)
+[eval] 120/968 rows (parse_fail=0)
+[eval] 130/968 rows (parse_fail=0)
+[eval] 140/968 rows (parse_fail=0)
+[eval] 150/968 rows (parse_fail=0)
+[eval] 160/968 rows (parse_fail=0)
+[eval] 170/968 rows (parse_fail=0)
+[eval] 180/968 rows (parse_fail=0)
+[eval] 190/968 rows (parse_fail=0)
+[eval] 200/968 rows (parse_fail=0)
+[eval] 210/968 rows (parse_fail=0)
+[eval] 220/968 rows (parse_fail=0)
+[eval] 230/968 rows (parse_fail=0)
+[eval] 240/968 rows (parse_fail=0)
+[eval] 250/968 rows (parse_fail=0)
+[eval] 260/968 rows (parse_fail=0)
+[eval] 270/968 rows (parse_fail=0)
+[eval] 280/968 rows (parse_fail=0)
+[eval] 290/968 rows (parse_fail=0)
+[eval] 300/968 rows (parse_fail=0)
+[eval] 310/968 rows (parse_fail=0)
+[eval] 320/968 rows (parse_fail=0)
+[eval] 330/968 rows (parse_fail=0)
+[eval] 340/968 rows (parse_fail=0)
+[eval] 350/968 rows (parse_fail=0)
+[eval] 360/968 rows (parse_fail=0)
+[eval] 370/968 rows (parse_fail=0)
+[eval] 380/968 rows (parse_fail=0)
+[eval] 390/968 rows (parse_fail=0)
+[eval] 400/968 rows (parse_fail=0)
+[eval] 410/968 rows (parse_fail=0)
+[eval] 420/968 rows (parse_fail=0)
+[eval] 430/968 rows (parse_fail=0)
+[eval] 440/968 rows (parse_fail=0)
+[eval] 450/968 rows (parse_fail=0)
+[eval] 460/968 rows (parse_fail=0)
+[eval] 470/968 rows (parse_fail=0)
+[eval] 480/968 rows (parse_fail=0)
+[eval] 490/968 rows (parse_fail=0)
+[eval] 500/968 rows (parse_fail=0)
+[eval] 510/968 rows (parse_fail=0)
+[eval] 520/968 rows (parse_fail=0)
+[eval] 530/968 rows (parse_fail=0)
+[eval] 540/968 rows (parse_fail=0)
+[eval] 550/968 rows (parse_fail=0)
+[eval] 560/968 rows (parse_fail=0)
+[eval] 570/968 rows (parse_fail=0)
+[eval] 580/968 rows (parse_fail=0)
+[eval] 590/968 rows (parse_fail=0)
+[eval] 600/968 rows (parse_fail=0)
+[eval] 610/968 rows (parse_fail=0)
+[eval] 620/968 rows (parse_fail=0)
+[eval] 630/968 rows (parse_fail=0)
+[eval] 640/968 rows (parse_fail=0)
+[eval] 650/968 rows (parse_fail=0)
+[eval] 660/968 rows (parse_fail=0)
+[eval] 670/968 rows (parse_fail=0)
+[eval] 680/968 rows (parse_fail=0)
+[eval] 690/968 rows (parse_fail=0)
+[eval] 700/968 rows (parse_fail=0)
+[eval] 710/968 rows (parse_fail=0)
+[eval] 720/968 rows (parse_fail=0)
+[eval] 730/968 rows (parse_fail=0)
+[eval] 740/968 rows (parse_fail=0)
+[eval] 750/968 rows (parse_fail=0)
+[eval] 760/968 rows (parse_fail=0)
+[eval] 770/968 rows (parse_fail=0)
+[eval] 780/968 rows (parse_fail=0)
+[eval] 790/968 rows (parse_fail=0)
+[eval] 800/968 rows (parse_fail=0)
+[eval] 810/968 rows (parse_fail=0)
+[eval] 820/968 rows (parse_fail=0)
+[eval] 830/968 rows (parse_fail=0)
+[eval] 840/968 rows (parse_fail=0)
+[eval] 850/968 rows (parse_fail=0)
+[eval] 860/968 rows (parse_fail=0)
+[eval] 870/968 rows (parse_fail=0)
+[eval] 880/968 rows (parse_fail=0)
+[eval] 890/968 rows (parse_fail=0)
+[eval] 900/968 rows (parse_fail=0)
+[eval] 910/968 rows (parse_fail=0)
+[eval] 920/968 rows (parse_fail=0)
+[eval] 930/968 rows (parse_fail=0)
+[eval] 940/968 rows (parse_fail=0)
+[eval] 950/968 rows (parse_fail=0)
+[eval] 960/968 rows (parse_fail=0)
+[eval] 968/968 rows (parse_fail=0)
+
+============================================================
+Model: Qwen/Qwen2.5-VL-7B-Instruct  Adapter: /home/dencio/pagasa-pilot/runs/qwen25vl7b-full-20260714T181314Z/adapter
+Examples: 968  JSON parse failures: 0
+============================================================
+
+Per-field accuracy vs PUMIS ground truth:
+  dew_point_c                   874/939  ( 93.1%)
+  dry_bulb_c                    888/939  ( 94.6%)
+  msl_pressure_hpa              739/811  ( 91.1%)
+  past_weather_w                850/884  ( 96.2%)
+  present_weather_ww            830/884  ( 93.9%)
+  rainfall_amount_mm            319/351  ( 90.9%)
+  relative_humidity_pct         843/941  ( 89.6%)
+  station_pressure_hpa          850/949  ( 89.6%)
+  total_cloud_oktas             913/941  ( 97.0%)
+  utc_hour                      960/968  ( 99.2%)
+  visibility_km                 895/933  ( 95.9%)
+  wet_bulb_c                    892/940  ( 94.9%)
+  wind_direction_deg            862/936  ( 92.1%)
+  wind_speed_mps                906/936  ( 96.8%)
+
+Agreement with independent §63 SYNOP encoding (label-free sanity check):
+  dry_bulb_c                    886/937  ( 94.6%)
+  msl_pressure_hpa              735/925  ( 79.5%)
+  station_pressure_hpa          739/945  ( 78.2%)
+

@@ -1,0 +1,29 @@
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 2235.77it/s]
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:17<3:35:26, 17.76s/it]Loading weights:   1%|          | 5/729 [00:18<34:37,  2.87s/it]  Loading weights:   1%|          | 7/729 [00:29<46:29,  3.86s/it]Loading weights:   7%|▋         | 54/729 [00:30<03:24,  3.30it/s]Loading weights:   7%|▋         | 54/729 [00:49<03:24,  3.30it/s]Loading weights:   8%|▊         | 56/729 [00:54<10:21,  1.08it/s]Loading weights:  20%|██        | 148/729 [00:55<02:03,  4.70it/s]Loading weights:  21%|██▏       | 155/729 [01:06<02:59,  3.20it/s]Loading weights:  26%|██▌       | 190/729 [01:12<02:22,  3.78it/s]Loading weights:  27%|██▋       | 194/729 [01:12<02:14,  3.97it/s]Loading weights:  27%|██▋       | 194/729 [01:29<02:14,  3.97it/s]Loading weights:  29%|██▉       | 213/729 [01:35<04:24,  1.95it/s]Loading weights:  29%|██▉       | 214/729 [01:35<04:20,  1.98it/s]Loading weights:  42%|████▏     | 304/729 [01:40<01:15,  5.64it/s]Loading weights:  43%|████▎     | 317/729 [01:41<01:08,  6.05it/s]Loading weights:  44%|████▍     | 319/729 [01:43<01:18,  5.21it/s]Loading weights:  45%|████▌     | 329/729 [01:44<01:10,  5.70it/s]Loading weights:  45%|████▌     | 331/729 [01:52<02:21,  2.82it/s]Loading weights: 100%|██████████| 729/729 [01:52<00:00,  6.47it/s]
+
+============================================================
+Model: Qwen/Qwen2.5-VL-7B-Instruct  Adapter: (none — zero-shot baseline)
+Examples: 100  JSON parse failures: 0
+============================================================
+
+Per-field accuracy vs PUMIS ground truth:
+  dew_point_c                     6/100  (  6.0%)
+  dry_bulb_c                     12/100  ( 12.0%)
+  msl_pressure_hpa                4/100  (  4.0%)
+  past_weather_w                  2/94   (  2.1%)
+  present_weather_ww              3/94   (  3.2%)
+  rainfall_amount_mm             23/37   ( 62.2%)
+  relative_humidity_pct          15/100  ( 15.0%)
+  station_pressure_hpa            4/100  (  4.0%)
+  total_cloud_oktas               9/100  (  9.0%)
+  utc_hour                       12/100  ( 12.0%)
+  visibility_km                  13/100  ( 13.0%)
+  wet_bulb_c                      6/100  (  6.0%)
+  wind_direction_deg              8/99   (  8.1%)
+  wind_speed_mps                 29/99   ( 29.3%)
+
+Agreement with independent §63 SYNOP encoding (label-free sanity check):
+  dry_bulb_c                     12/99   ( 12.1%)
+  msl_pressure_hpa                4/99   (  4.0%)
+  station_pressure_hpa            4/99   (  4.0%)
+

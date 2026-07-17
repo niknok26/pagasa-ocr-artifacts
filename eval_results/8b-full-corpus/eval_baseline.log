@@ -1,0 +1,126 @@
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 3182.93it/s]
+Loading weights:   0%|          | 0/750 [00:00<?, ?it/s]Loading weights:   0%|          | 1/750 [00:08<1:46:29,  8.53s/it]Loading weights:   0%|          | 2/750 [00:15<1:33:49,  7.53s/it]Loading weights:   1%|          | 4/750 [00:16<37:28,  3.01s/it]  Loading weights:   1%|          | 5/750 [00:17<30:00,  2.42s/it]Loading weights:   1%|▏         | 10/750 [00:17<09:43,  1.27it/s]Loading weights:   2%|▏         | 15/750 [00:18<05:43,  2.14it/s]Loading weights:   2%|▏         | 16/750 [00:18<06:00,  2.04it/s]Loading weights:   2%|▏         | 17/750 [00:32<30:06,  2.46s/it]Loading weights:  10%|█         | 76/750 [00:32<02:05,  5.36it/s]Loading weights:  11%|█         | 81/750 [00:33<02:01,  5.50it/s]Loading weights:  11%|█▏        | 85/750 [00:34<02:07,  5.23it/s]Loading weights:  12%|█▏        | 88/750 [00:34<01:59,  5.54it/s]Loading weights:  12%|█▏        | 91/750 [00:38<03:32,  3.10it/s]Loading weights:  14%|█▍        | 105/750 [00:39<02:07,  5.06it/s]Loading weights:  14%|█▍        | 108/750 [00:39<01:57,  5.47it/s]Loading weights:  15%|█▍        | 110/750 [00:49<07:18,  1.46it/s]Loading weights:  25%|██▍       | 186/750 [00:50<01:00,  9.34it/s]Loading weights:  26%|██▌       | 194/750 [00:51<01:07,  8.25it/s]Loading weights:  27%|██▋       | 200/750 [00:52<01:03,  8.60it/s]Loading weights:  27%|██▋       | 205/750 [00:54<01:18,  6.97it/s]Loading weights:  28%|██▊       | 208/750 [00:54<01:15,  7.21it/s]Loading weights:  28%|██▊       | 211/750 [00:54<01:12,  7.48it/s]Loading weights:  28%|██▊       | 213/750 [00:55<01:21,  6.62it/s]Loading weights:  29%|██▊       | 215/750 [01:01<04:39,  1.92it/s]Loading weights:  32%|███▏      | 241/750 [01:01<01:24,  6.04it/s]Loading weights:  33%|███▎      | 246/750 [01:02<01:23,  6.06it/s]Loading weights:  33%|███▎      | 250/750 [01:03<01:33,  5.35it/s]Loading weights:  34%|███▎      | 253/750 [01:04<01:31,  5.46it/s]Loading weights:  34%|███▍      | 258/750 [01:05<01:23,  5.91it/s]Loading weights:  35%|███▍      | 260/750 [01:05<01:29,  5.50it/s]Loading weights:  35%|███▌      | 263/750 [01:05<01:17,  6.31it/s]Loading weights:  36%|███▌      | 268/750 [01:06<01:08,  6.99it/s]Loading weights:  36%|███▌      | 270/750 [01:07<01:44,  4.59it/s]Loading weights:  37%|███▋      | 274/750 [01:07<01:17,  6.11it/s]Loading weights:  37%|███▋      | 276/750 [01:07<01:11,  6.68it/s]Loading weights:  37%|███▋      | 281/750 [01:08<00:46, 10.11it/s]Loading weights:  38%|███▊      | 285/750 [01:08<00:41, 11.31it/s]Loading weights:  38%|███▊      | 288/750 [01:08<00:39, 11.79it/s]Loading weights:  39%|███▉      | 291/750 [01:09<00:59,  7.67it/s]Loading weights:  39%|███▉      | 293/750 [01:10<01:22,  5.54it/s]Loading weights:  39%|███▉      | 296/750 [01:10<01:10,  6.47it/s]Loading weights:  40%|███▉      | 298/750 [01:10<01:06,  6.77it/s]Loading weights:  40%|████      | 301/750 [01:11<01:25,  5.24it/s]Loading weights:  40%|████      | 302/750 [01:15<05:18,  1.41it/s]Loading weights:  43%|████▎     | 319/750 [01:21<03:13,  2.23it/s]Loading weights:  43%|████▎     | 321/750 [01:22<02:56,  2.42it/s]Loading weights:  47%|████▋     | 356/750 [01:22<00:49,  7.96it/s]Loading weights:  48%|████▊     | 358/750 [01:24<01:00,  6.45it/s]Loading weights:  49%|████▉     | 366/750 [01:24<00:46,  8.28it/s]Loading weights:  50%|████▉     | 372/750 [01:24<00:37, 10.00it/s]Loading weights:  50%|█████     | 376/750 [01:24<00:38,  9.63it/s]Loading weights:  51%|█████     | 379/750 [01:26<00:56,  6.57it/s]Loading weights:  51%|█████     | 381/750 [01:26<01:03,  5.80it/s]Loading weights:  51%|█████     | 384/750 [01:27<00:56,  6.52it/s]Loading weights:  51%|█████▏    | 386/750 [01:29<01:50,  3.29it/s]Loading weights:  53%|█████▎    | 395/750 [01:29<00:56,  6.33it/s]Loading weights:  53%|█████▎    | 397/750 [01:29<00:53,  6.60it/s]Loading weights:  54%|█████▎    | 402/750 [01:29<00:37,  9.22it/s]Loading weights:  54%|█████▍    | 406/750 [01:29<00:29, 11.48it/s]Loading weights:  55%|█████▌    | 416/750 [01:29<00:16, 19.84it/s]Loading weights:  57%|█████▋    | 424/750 [01:30<00:14, 22.81it/s]Loading weights:  58%|█████▊    | 436/750 [01:30<00:09, 31.60it/s]Loading weights:  59%|█████▉    | 441/750 [01:31<00:17, 18.12it/s]Loading weights:  67%|██████▋   | 501/750 [01:31<00:03, 72.11it/s]Loading weights:  69%|██████▉   | 518/750 [01:31<00:03, 69.08it/s]Loading weights:  71%|███████   | 532/750 [01:32<00:06, 31.89it/s]Loading weights:  82%|████████▏ | 618/750 [01:33<00:01, 77.46it/s]Loading weights:  85%|████████▍ | 634/750 [01:33<00:02, 53.14it/s]Loading weights:  94%|█████████▍| 705/750 [01:34<00:00, 95.63it/s]Loading weights:  98%|█████████▊| 732/750 [01:35<00:00, 53.30it/s]Loading weights: 100%|██████████| 750/750 [01:36<00:00,  7.78it/s]
+[eval] 10/968 rows (parse_fail=2)
+[eval] 20/968 rows (parse_fail=7)
+[eval] 30/968 rows (parse_fail=8)
+[eval] 40/968 rows (parse_fail=9)
+[eval] 50/968 rows (parse_fail=10)
+[eval] 60/968 rows (parse_fail=13)
+[eval] 70/968 rows (parse_fail=15)
+[eval] 80/968 rows (parse_fail=18)
+[eval] 90/968 rows (parse_fail=19)
+[eval] 100/968 rows (parse_fail=19)
+[eval] 110/968 rows (parse_fail=23)
+[eval] 120/968 rows (parse_fail=25)
+[eval] 130/968 rows (parse_fail=26)
+[eval] 140/968 rows (parse_fail=29)
+[eval] 150/968 rows (parse_fail=33)
+[eval] 160/968 rows (parse_fail=36)
+[eval] 170/968 rows (parse_fail=38)
+[eval] 180/968 rows (parse_fail=40)
+[eval] 190/968 rows (parse_fail=43)
+[eval] 200/968 rows (parse_fail=44)
+[eval] 210/968 rows (parse_fail=49)
+[eval] 220/968 rows (parse_fail=53)
+[eval] 230/968 rows (parse_fail=55)
+[eval] 240/968 rows (parse_fail=59)
+[eval] 250/968 rows (parse_fail=63)
+[eval] 260/968 rows (parse_fail=67)
+[eval] 270/968 rows (parse_fail=68)
+[eval] 280/968 rows (parse_fail=71)
+[eval] 290/968 rows (parse_fail=74)
+[eval] 300/968 rows (parse_fail=77)
+[eval] 310/968 rows (parse_fail=81)
+[eval] 320/968 rows (parse_fail=83)
+[eval] 330/968 rows (parse_fail=86)
+[eval] 340/968 rows (parse_fail=87)
+[eval] 350/968 rows (parse_fail=88)
+[eval] 360/968 rows (parse_fail=89)
+[eval] 370/968 rows (parse_fail=90)
+[eval] 380/968 rows (parse_fail=90)
+[eval] 390/968 rows (parse_fail=91)
+[eval] 400/968 rows (parse_fail=93)
+[eval] 410/968 rows (parse_fail=96)
+[eval] 420/968 rows (parse_fail=97)
+[eval] 430/968 rows (parse_fail=97)
+[eval] 440/968 rows (parse_fail=98)
+[eval] 450/968 rows (parse_fail=101)
+[eval] 460/968 rows (parse_fail=102)
+[eval] 470/968 rows (parse_fail=104)
+[eval] 480/968 rows (parse_fail=107)
+[eval] 490/968 rows (parse_fail=109)
+[eval] 500/968 rows (parse_fail=111)
+[eval] 510/968 rows (parse_fail=114)
+[eval] 520/968 rows (parse_fail=116)
+[eval] 530/968 rows (parse_fail=124)
+[eval] 540/968 rows (parse_fail=127)
+[eval] 550/968 rows (parse_fail=130)
+[eval] 560/968 rows (parse_fail=131)
+[eval] 570/968 rows (parse_fail=133)
+[eval] 580/968 rows (parse_fail=134)
+[eval] 590/968 rows (parse_fail=135)
+[eval] 600/968 rows (parse_fail=139)
+[eval] 610/968 rows (parse_fail=141)
+[eval] 620/968 rows (parse_fail=145)
+[eval] 630/968 rows (parse_fail=150)
+[eval] 640/968 rows (parse_fail=152)
+[eval] 650/968 rows (parse_fail=154)
+[eval] 660/968 rows (parse_fail=157)
+[eval] 670/968 rows (parse_fail=160)
+[eval] 680/968 rows (parse_fail=162)
+[eval] 690/968 rows (parse_fail=165)
+[eval] 700/968 rows (parse_fail=168)
+[eval] 710/968 rows (parse_fail=171)
+[eval] 720/968 rows (parse_fail=175)
+[eval] 730/968 rows (parse_fail=177)
+[eval] 740/968 rows (parse_fail=179)
+[eval] 750/968 rows (parse_fail=181)
+[eval] 760/968 rows (parse_fail=184)
+[eval] 770/968 rows (parse_fail=187)
+[eval] 780/968 rows (parse_fail=190)
+[eval] 790/968 rows (parse_fail=194)
+[eval] 800/968 rows (parse_fail=194)
+[eval] 810/968 rows (parse_fail=199)
+[eval] 820/968 rows (parse_fail=202)
+[eval] 830/968 rows (parse_fail=204)
+[eval] 840/968 rows (parse_fail=207)
+[eval] 850/968 rows (parse_fail=212)
+[eval] 860/968 rows (parse_fail=217)
+[eval] 870/968 rows (parse_fail=219)
+[eval] 880/968 rows (parse_fail=219)
+[eval] 890/968 rows (parse_fail=222)
+[eval] 900/968 rows (parse_fail=222)
+[eval] 910/968 rows (parse_fail=227)
+[eval] 920/968 rows (parse_fail=230)
+[eval] 930/968 rows (parse_fail=233)
+[eval] 940/968 rows (parse_fail=237)
+[eval] 950/968 rows (parse_fail=239)
+[eval] 960/968 rows (parse_fail=240)
+[eval] 968/968 rows (parse_fail=243)
+
+============================================================
+Model: Qwen/Qwen3-VL-8B-Instruct  Adapter: (none — zero-shot baseline)
+Examples: 968  JSON parse failures: 243
+============================================================
+
+Per-field accuracy vs PUMIS ground truth:
+  dew_point_c                   228/705  ( 32.3%)
+  dry_bulb_c                    278/705  ( 39.4%)
+  msl_pressure_hpa               98/605  ( 16.2%)
+  past_weather_w                 16/648  (  2.5%)
+  present_weather_ww             36/648  (  5.6%)
+  rainfall_amount_mm            191/280  ( 68.2%)
+  relative_humidity_pct         254/705  ( 36.0%)
+  station_pressure_hpa           65/706  (  9.2%)
+  total_cloud_oktas              86/705  ( 12.2%)
+  utc_hour                      322/725  ( 44.4%)
+  visibility_km                 341/698  ( 48.9%)
+  wet_bulb_c                    311/705  ( 44.1%)
+  wind_direction_deg            152/701  ( 21.7%)
+  wind_speed_mps                287/701  ( 40.9%)
+
+Agreement with independent §63 SYNOP encoding (label-free sanity check):
+  dry_bulb_c                    275/701  ( 39.2%)
+  msl_pressure_hpa              113/694  ( 16.3%)
+  station_pressure_hpa           65/702  (  9.3%)
+
