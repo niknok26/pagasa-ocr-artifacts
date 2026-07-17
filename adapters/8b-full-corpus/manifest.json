@@ -1,7 +1,7 @@
 {
   "run_id": "qwen3vl8b-20260714T034604Z",
   "created_at": "2026-07-14T03:46:04Z",
-  "git_commit": "UNKNOWN \u2014 Sparky please confirm the commit checked out for this run",
+  "git_commit": "UNKNOWN \u2014 between 0aa43a7 (dataloader deadlock fix, 2026-07-14) and 33cfd9b (BENCHMARKS.md, 2026-07-14). Both the 7B-full and 8B runs ran on the same date.",
   "model": {
     "base_model": "Qwen/Qwen3-VL-8B-Instruct",
     "quant": "bf16",
@@ -46,7 +46,7 @@
   "result": {
     "best_eval_loss": 0.04254649579524994,
     "best_checkpoint_step": 900,
-    "final_eval_loss": 0.03691,
+    "final_eval_loss": 0.05392711982131004,
     "eval_metrics_file": "eval_results/8b-full-corpus/eval_adapted.eval_manifest.json"
   },
   "artifact": {
@@ -54,5 +54,5 @@
     "adapter_size_bytes": 174663096,
     "s3_backup_uri": null
   },
-  "notes": "IMPORTANT: this is the local 8B run (NOT an EC2 run). train.log confirms: 'Sparky Qwen3-VL-8B pilot', 'model=Qwen/Qwen3-VL-8B-Instruct quant=bf16 max_steps=1800 eval_limit=968 stall=30m wall=0h', 'Training on: NVIDIA GB10'. Best checkpoint was checkpoint-900 (eval_loss 0.0425). Eval was run against the final adapter (checkpoint-1800). S3 copy exists at s3://quant-qwen-qwen2.5-7b-instruct-1779249957-7847/pagasa_pilot/runs/run-20260714T065048Z/final_adapter/ \u2014 the S3 path prefix is misleading (it's a leftover from the EC2 run naming, not the actual model). This is a THIRD, previously untracked 8B configuration \u2014 not the '8B Sparky, 1800 steps, bf16' or '8B EC2 QLoRA, 7800 steps' rows in BENCHMARKS.md."
+  "notes": "This is the local 8B run (Qwen3-VL-8B-Instruct, bf16, 1800 steps on Sparky DGX GB10). best_checkpoint_step=900 confirmed from trainer_state.json (eval_loss 0.0425 at step 900, lowest across all 4 eval points: 450=0.0497, 900=0.0425, 1350=0.0426, 1800=0.0539). final_eval_loss updated to actual eval_loss at step 1800 (was incorrectly set to train_loss before). Eval was run against the final adapter (checkpoint-1800)."
 }
